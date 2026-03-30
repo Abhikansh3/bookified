@@ -1,6 +1,6 @@
 const page = () => {
   return (
-    <div>Bookified</div>
+    <div></div>
 
   )
 }
