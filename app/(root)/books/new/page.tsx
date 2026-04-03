@@ -1,3 +1,5 @@
+import UploadForm from '@/components/UploadForm';
+
 const page = () => {
   return (
     <main className="wrapper container">
@@ -6,6 +8,7 @@ const page = () => {
           <h1 className="page-title-xl">Add a New Book</h1>
           <p className="subtitle">Upload a PDF to generate your interactive interview</p>
         </section>
+        <UploadForm />
       </div>
     </main>)
 }
